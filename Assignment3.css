@@ -1,0 +1,85 @@
+.main {
+  position:relative;
+  height: 100%;
+}
+
+.column1 {
+  float: left;
+  height: 100%;
+  width: 20%;
+  background-color: #E7E7E9;
+  text-align: center;
+  line-height: 30px;
+}
+
+.column1 img {
+  clip-path: circle();
+  width: 90%;
+}
+
+.column1 h1 {
+  text-size-adjust: auto;
+  margin-top: 0;
+}
+
+.column1 h2 {
+  margin-bottom: 0;
+}
+.box {
+  text-size-adjust: auto;
+  float: left;
+  height:30%;
+  width:80%;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+  }
+.box h2{
+  padding-left: 10%;
+}
+.box p{
+  line-height: 29px;
+  width: 75%;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: justify;
+}
+.column2 {
+  text-align: 50px;
+  float: left;
+  height: 100%;
+  width: 80%;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+  line-height: 30px;
+  font-size: 24px;
+}
+.column2 h2{
+  padding-left: 10%;
+}
+.column2 ul{
+  padding-left: 10%;
+}
+.column2 h3{
+  padding-left: 10%;
+}
+.column2 table{
+  margin-left: 10%;
+  text-align: center;
+  border-style:dashed;
+  border-color: black;
+  border-left:50 px ;
+  border-right: 0px;
+  border-top: 0px;
+  border-bottom:0px ;
+  border-collapse: collapse;
+  border-spacing: 20px;
+}
+.column2 table td use{
+  border: 5px;
+  border-top: 5px;
+  border-bottom: 0px;
+  border-color: black;
+  border-style: solid;
+  border-collapse: collapse;
+  
+}
