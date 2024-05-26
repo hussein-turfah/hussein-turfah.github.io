@@ -1,104 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <link href="Assignment3.css" rel="stylesheet" >
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hussein Turfah - Personal Webpage</title>
+  <link href="index.css" rel="stylesheet">
 </head>
-<div class="main">
-  <div class="column1">
-    <img src="https://lh3.googleusercontent.com/pw/AMWts8Brq4I0u0Xjyd2A4h0wxT3U_rj45TeenipaSdH62C9b4mHHMovmpdjDlzMDHg4kodzC9VWQxNmKO6YOIyA09mdDTYMSySmP-YOXrpBCXVGGDbN632KQLCYCMOroDMhxPzJuyrhpyd5llYXAKSvrTgA=w438-h584-no" 
-      alt="My picture">
-    <h1>HUSSEIN TURFAH</h1>
-    <h2>Full Stack Web Developer
-    </h2>
-    <h3>
-      Agricultural Engineer
-    </h3>
-    <a href="https://www.linkedin.com/in/husseinturfah/">LinkedIn</a>
-  </div>
-  <div class="box">
-    <h2>
-      Cohort number: 21
-    </h2>
-    <h2>
-      About me:
-    </h2>
-    <p>
-      As an Agricultural Engineer with a passion for coding, 
-      I am applying for Full-Stack Web Development. I bring a unique blend of 
-      technical knowledge and hands-on coding experience to the field, 
-      and my background in agriculture, attention to detail, and problem-solving skills 
-      make me a valuable asset to any development team. I am committed to continuous learning 
-      and have a strong work ethic, which makes me well-suited for the fast-paced, 
-      constantly evolving world of web development.
-    </p>
-  </div>
-  <div class="column2">
-    <h2>Hobies</h2>
-    <ul>
-      <li>Coding</li>
-      <li>Bug Bounty Hunting</li>
-      <li>Chess</li>
-    </ul>
-    <h3>Experience</h3>
-    <table class="expt">
-      <tr>
-        <td>
-          <h4>
-            Agricultural Engineer
-          </h4>
-          <h5>
-            Spring S.A.R.L
-          </h5>
-          <h6>
-            1 Year
-          </h6>
-        </td>
-        <td class="usethis">
-          <p>Has over 3 years of experience in field</p>
-          <p>
-            Have secured Achievement Letter Good Intent and Good Moral Character
-          </p>
-          <p>
-            Have acquired education needed w agricultural equipment, pesticides, sales and more
-          </p>
-        </td>     
-      </tr>
-      <tr>
-        <td>
-          <h4>
-            Field Manager     
-          </h4>
-          <h5>
-            Turfah Company
-          </h5>
-          <h6>
-            3 Years
-          </h6>
-        </td>
-        <td>
-          <p>
-            Has Obtained Employee of The Year (2021)
-          </p>
-          <p>
-            Has over 3 years of experience in field
-          </p>
-        </td>     
-      </tr>
-    </table>
-    <table>
-      <h3>
-        Education
-      </h3>
-      <tr>
-        <td>
-          <h4>
-            Bachelor of Science in Agriculture
-          </h4>
-          <h5>
-            American University of Beirut
-          </h5>
-          <h6>
-            Aug. 2019 , Jun. 2022 
-          </h6>
-        </td>
-      </tr>
-    </table>
-  </div>
+
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1>Hussein Turfah</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="showcase">
+    <div class="container">
+      <h1>Welcome to My Personal Webpage</h1>
+      <p>Crafting user-friendly websites with intuitive design and robust functionality.</p>
+    </div>
+  </section>
+
+  <section id="about" class="content-section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Mastering both frontend and backend intricacies, I craft user-friendly websites that transcend expectations,
+        seamlessly merging intuitive design with robust functionality for unparalleled digital experiences.</p>
+    </div>
+  </section>
+
+  <section id="experience" class="content-section">
+    <div class="container">
+      <h2>Professional Experience & Projects</h2>
+      <h3>Junior Full Stack Developer, Dojo FZ LLC, Abu Dhabi, UAE</h3>
+      <p><strong>May 2023 – Present</strong></p>
+      <ul>
+        <li>Developed and implemented frontend web pages using Next.js and Redux.js.</li>
+        <li>Designed and implemented backend functionalities to enhance system capabilities.</li>
+        <li>Facilitated the company's messaging system using Socket.IO.</li>
+        <li>Translated frontend designs into responsive web applications using media queries.</li>
+        <li>Diagnosed and resolved complex bug issues, improving system performance.</li>
+        <li>Assisted clients with technical problem-solving and troubleshooting.</li>
+        <li>Collaborated with cross-functional teams using Notion Sprints.</li>
+      </ul>
+      <h3>Agricultural Engineer and Field Manager, Turfah Company, Lebanon</h3>
+      <p><strong>May 2018 – Sep 2019</strong></p>
+      <ul>
+        <li>Created pesticide and fertilizers application schedules.</li>
+        <li>Managed staff work schedules based on daily chores and staff knowledge.</li>
+        <li>Compared yield results to assess fertilization schedules.</li>
+        <li>Maintained digital records of staff and analytical data for assessment.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="skills" class="content-section">
+    <div class="container">
+      <h2>Key Skills</h2>
+      <ul>
+        <li><strong>Programming Languages:</strong> PHP, JavaScript, SQL, Python, C++</li>
+        <li><strong>Database Management Systems:</strong> MySQL, MongoDB</li>
+        <li><strong>Frameworks and Libraries:</strong> Laravel v9.x, Next.js, React, Node.js, jQuery, Electron.js</li>
+        <li><strong>Tools and Cloud Services:</strong> GitHub, Redux, Postman, Figma</li>
+        <li><strong>Theory:</strong> Complexity Analysis, Data Structures and Algorithms, Design Patterns, OOP</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="education" class="content-section">
+    <div class="container">
+      <h2>Education</h2>
+      <p><strong>Bachelor of Science (B.S.) in Agriculture</strong></p>
+      <p>American University of Beirut, Beirut, Lebanon | August 2018 – June 2022</p>
+    </div>
+  </section>
+
+  <section id="training" class="content-section">
+    <div class="container">
+      <h2>Training and Certifications</h2>
+      <h3>Full-Stack Web Development Bootcamp, SE Factory, Beirut</h3>
+      <p><strong>Feb 2023 – May 2023</strong></p>
+      <p>Completed an intensive full-stack web development program covering cloud architecture, front- and back-end
+        development, source control, and web application security over 14 weeks of lectures, workshops, and projects.
+      </p>
+      <p><strong>Project:</strong> FarmDuino</p>
+      <ul>
+        <li>Desktop application employing MQTT to communicate with a Smart Greenhouse System.</li>
+        <li>Integrated GPT3.5-Turbo for plant environment recommendations.</li>
+        <li>Fetched images for identified plant genus and species using an external API.</li>
+        <li><strong>Technologies:</strong> Front-end: React, Electron | Back-end: Laravel | Database: MySQL | IoT | AI
+        </li>
+      </ul>
+      <h3>Ethical Hacking Foundation, Semicolon Academy, Beirut</h3>
+      <p><strong>Sep 2022 – Oct 2022</strong></p>
+      <p>Completed a practical hands-on course covering the basics of cybersecurity and ethical hacking in three main
+        areas: network security, penetration testing, and bug hunting.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="content-section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p><strong>Email:</strong> <a href="mailto:husseinturfah299@gmail.com">husseinturfah299@gmail.com</a></p>
+      <p><strong>LinkedIn:</strong> <a
+          href="https://www.linkedin.com/in/husseinturfah/">https://www.linkedin.com/in/husseinturfah/</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/Hussein-Turfah">https://github.com/Hussein-Turfah</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Hussein Turfah. All Rights Reserved.</p>
+  </footer>
+</body>
+
+</html>
